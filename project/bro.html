@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Stylee.CSS">
+  </head>
+  <body>
+      <div id="sectionHome">
+        <div class="bg-dance-container d-flex flex-column justify-content-end">
+          <div class="bg-dance-card">
+              <h1 class="dance-heading"> Dance Compition</h1>
+              <P class="para">Differnt types dances...</P>
+              <button class="btn btn-secondary" onclick="display('sectionClassicalDance')">
+                Get Started
+              </button>
+          </div>
+        </div>
+      </div>    
+    <div id="sectionClassicalDance">
+        <div class="bg-classical-dance-container">
+          <h1 class="bg-classical-dance-container-heading">
+              Classical Dance
+          </h1>
+          <div class="classical-dance-card-container d-flex flex-row" onclick="display('sectionKuchipudiDetailedView')">
+              <div>
+                  <h1>Kuchipudi</h1>
+                  <p>
+                      Kuchipudi is a beautiful classical Indian dance form that originated in the state of Andhra Pradesh. It's known for its graceful movements, intricate footwork, expressive gestures (mudras), and storytelling through dance.
+                  </p>
+              </div>
+              <img src="https://as1.ftcdn.net/v2/jpg/04/79/72/34/1000_F_479723469_HpZ9qxnOSChFxjQr1mAo5auwg4QImd2Z.jpg"class="image"/>
+          </div>
+          <div class="classical-dance-card-container d-flex flex-row" onclick="display('sectionBharatanatyamDetailaedView')">
+              <div>
+                  <h1>Bharatanatyam</h1>
+                  <p>
+                      Bharatanatyam is one of the oldest and most revered classical dance forms in India, originating from the state of Tamil Nadu. It's characterized by its intricate footwork, expressive gestures, emotive facial expressions, and graceful movements.
+                  </p>
+              </div>
+              <img src="https://t4.ftcdn.net/jpg/01/27/51/21/240_F_127512187_msnZO9snEsPTNSa3gDJMO2nFsgvHbwQE.jpg" class="image"/>
+          </div>
+          <div class="classical-dance-card-container d-flex flex-row" onclick="display('sectionKathakaliDetailedView')">
+              <div>
+                  <h1>Katha kali </h1>
+                  <p>
+                      Kuchipudi is a beautiful classical Indian dance form that originated in the state of Andhra Pradesh. It's known for its graceful movements, intricate footwork, expressive gestures (mudras), and storytelling through dance.
+                  </p>
+              </div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Shree_Krishnan_by_FACT_Jayadeva_Varma.jpg/440px-Shree_Krishnan_by_FACT_Jayadeva_Varma.jpg"class="image"/>
+          </div>
+          <div class="classical-dance-card-container d-flex flex-row" onclick="display('sectionPeriniShivaThandavamDetailedView')">
+              <div>
+                  <h1>Perini Thandavam</h1>
+                  <p>
+                      Perini Thandavam is a powerful and ancient dance form from Telangana, performed traditionally by male dancers. It's a vigorous and rhythmic dance that embodies valor, strength, and bravery.
+                      Historically associated with warriors before battle, it involves dynamic movements accompanied by drums, showcasing agility and a sense of martial prowess.
+                  </p>
+              </div>
+              <img src="https://th-i.thgim.com/public/todays-paper/tp-features/tp-fridayreview/article17496955.ece/alternates/FREE_385/hyf17aruna-natrG5M1E7Q0C9jpgjpg"class="image"/>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>
+        </div>
+      </div> 
+    <div id="sectionKuchipudiDetailedView">
+      <div class="bg-detailed-view-container">
+          <h1 class="bg-detailed-view-heading">
+              Detailed View
+          </h1>
+          <div class="detailed-view-card-container">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://assets.thehansindia.com/h-upload/2020/03/10/952786-dance.webp" class="d-block w-100 image1" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://media.ipassio.com/media/lookup/instrument/kuchipudi/brand_logo/kuchipudi-wiki-pooja.jpg" class="d-block w-100 image1"  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://media.istockphoto.com/id/507419740/photo/girl-dancing-classical-indin-dance-kuchipudi.jpg?s=1024x1024&w=is&k=20&c=QBcVzi-rpXvpTBR8zReEMNBKv2wvs9tkUsfWGoPvUus=" class="d-block w-100 image1" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+              <div class="detailed-view-card-text-container">
+                  <h1 class="detailed-card-heading">Kuchipudi</h1>
+                  <p class="detailed-card-description">Kuchipudi is a beautiful classical Indian dance form that originated in the state of Andhra Pradesh.
+                      It's known for its graceful movements, intricate footwork, expressive gestures (mudras), and storytelling through dance.
+                      Dancers often wear vibrant costumes and use music, rhythm, and facial expressions to convey emotions and narrate tales from Hindu mythology or other traditional stories. 
+                      It's a blend of both rhythmic and lyrical elements, showcasing a rich cultural heritage through its elegant movements and captivating performances.
+                      Kuchipudi, like other classical dance forms in India, traces its roots to the Sanskrit Natya Shastra, a foundational treatise on the performing arts.
+                      Its first complete compilation is dated to between 200 BCE and 200 CE,but estimates vary between 500 BCE and 500 CE.The most studied version of the Natya Shastra text consists of about 6000 verses structured into 36 chapters.
+                  </p>
+              </div>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionClassicalDance')">Back</button>
+      </div>
+    </div>
+    <div id="sectionBharatanatyamDetailaedView">
+      <div class="bg-detailed-view-container">
+          <h1 class="bg-detailed-view-heading">
+              Detailed View
+          </h1>
+          <div class="detailed-view-card-container">
+              <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://fotozoneindia.com/wp-content/uploads/2015/07/BH-12.jpg" class="d-block w-100 image1" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://fotozoneindia.com/wp-content/uploads/2015/07/bhr1.jpg" class="d-block w-100 image1"  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://baskl.com.my/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-07-at-11.36.35-PM.jpeg" class="d-block w-100 image1" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+              <div class="detailed-view-card-text-container">
+                  <h1 class="detailed-card-heading">Bharatanatyam</h1>
+                  <p class="detailed-card-description">Bharatanatyam is an important classical dance form in India. It originated in the temples of South India, particularly, Tamil Nadu. It used to be performed by Devadasis, thus it was also known as Dasiattam.
+                    Believed to be about 2000 years old, information about Bharatanatyam can be found in many ancient texts including Bharata Muni’s Natya Shastra.
+                    The main source of study for the techniques of body movements in this dance form is Abhinaya Darpana by Nandikesvara (4th – 5th century BCE).
+                    There is a lot of visual evidence of Bharatanatyam in the stones and pillars of ancient temples.
+                    The Gopurams of the Chidambaram temple contain many poses of Bharatanatyam.
+                    The precursor dance form to Bharatanatyam is called Sadir.
+                    Historical representations of this dance is available from Sangam works like Silappatikaram and Manimekalai
+                    Bharatanatyam dance was kept alive by the Devadasis, who were girls dedicated to temples.
+                  </p>
+              </div>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionClassicalDance')">back</button>
+      </div>
+    </div>
+    <div id="sectionKathakaliDetailedView">
+      <div class="bg-detailed-view-container">
+          <h1 class="bg-detailed-view-heading">
+              Detailed View
+          </h1>
+          <div class="detailed-view-card-container">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://www.holidify.com/images/cmsuploads/compressed/DSC_0501_20171221174618.JPG" class="d-block w-100 image1" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://cdn1.vectorstock.com/i/1000x1000/79/60/couple-performing-kathakali-dance-traditional-folk-vector-40977960.jpg" class="d-block w-100 image1"  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://learn.podium.school/wp-content/uploads/2023/11/image-200.jpeg" class="d-block w-100 image1" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+              <div class="detailed-view-card-text-container">
+                  <h1 class="detailed-card-heading">Katha Kali</h1>
+                  <p class="detailed-card-description">The literal meaning of the term Kathakali is ‘Story-Play’.
+                    It is a form of art that evolved from many socio-religious theatrical forms which existed in the ancient times of south India. 
+                    Chakiarkoothu, Koodiyattam, Krishnattam and Ramanattam are a few ritual performing arts of Kerala which exert a direct influence on Kathakali in its form and technique. 
+                    The ancient martial arts of Kerala also have an influence on this dance form.
+                    Kathakali can be observed in the temple sculptures in Kerala and the frescoes in the Mattancherry temple of approximately the 16th century.
+                    It is a blend of dance, music and acting along with themes based on Indian epics. 
+                    The art form consists of the four aspects of abhinaya – angika, acharya, vichika, satvika and the Nritya and the Natya aspects.
+                    The gestures form an alignment with verses known as ‘padams’ that are sung. 
+                    Kathakali draws its textual origin from Balarama Bharatam and Hastalakshana Deepika. 
+                  </p>
+              </div>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionClassicalDance')">Back</button>
+      </div>
+    </div>
+    <div id="sectionPeriniShivaThandavamDetailedView">
+        <div class="bg-detailed-view-container">
+          <h1 class="bg-detailed-view-heading">
+              Detailed View
+          </h1>
+          <div class="detailed-view-card-container">
+              <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://i.ytimg.com/vi/IGd8yPWZFRI/maxresdefault.jpg" class="d-block w-100 image1" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://i.ytimg.com/vi/OHM51lS2vlc/maxresdefault.jpg" class="d-block w-100 image1"  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://i.ytimg.com/vi/ko3dpXXgUL0/maxresdefault.jpg" class="d-block w-100 image1" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+              <div class="detailed-view-card-text-container">
+                  <h1 class="detailed-card-heading">Perini Shiva Thandavam</h1>
+                  <p class="detailed-card-description">
+                      This dance form is characterized by its energetic movements, intricate footwork, and graceful hand gestures.
+                      Dancers perform it with immense dynamism and passion, symbolizing the cosmic cycles of creation and destruction associated with Lord Shiva.
+                      The Perini Shivathandavam was traditionally performed by male dancers known as "Perini Sivathandavam." 
+                      The Perini dance was typically performed by males in the royal courts and temples as a pre-war ritual to seek “prerana” or inspiration from Lord Siva and involves vigorous dancing to the sound of drums. 
+                      The Perini dance is said to invoke Siva’s powers so dancers feel his energy within them as they prepare for battle.
+                      The Perini dance form flourished during the Kakatiya empire and then nearly died out after the fall of the Kakatiya empire. 
+                      It was the late Dr. Nataraja Ramakrishna (1923 – 2011) who was responsible for the resurrection of this 700 year old Perini dance.
+                  </p>
+              </div>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionClassicalDance')">Back</button>
+      </div>
+    </div>
+   <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
